@@ -56,11 +56,11 @@ export default function HeroSection() {
               initial="hidden"
               animate="visible"
             >
-              {["Full", "-", "stack", "web", "developer"].map((w, i) => (
+              {["Full-stack", "Web", "Developer"].map((w, i) => (
                 <motion.span
                   key={i}
                   className={`inline-block mr-2 ${
-                    w === "web" || w === "developer" ? "inline-block bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text font-semibold" :""
+                    w === "Web" || w === "Developer" ? "inline-block bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text font-semibold" :""
                   }`}
                   variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
                 >
