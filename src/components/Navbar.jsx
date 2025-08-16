@@ -14,9 +14,10 @@ function Navbar() {
     return (
         <header className="bg-white shadow sticky top-0 z-50">
             <nav className="max-w 5xl mx-auto flex justify-between items-center p-4">
+                <Link to="/" className={linkStyle("/")}>
                 <h1 className="text-xl font-bold text-blue-700">Sudeep Bidari</h1>
+                </Link>
                 <div className="space-x-2">
-                    <Link to="/" className={linkStyle("/")}>Home</Link>
                     <Link to="/projects" className={linkStyle("/projects")}>Projects</Link>
                     <Link to="/about" className={linkStyle("/about")}>About</Link>
                     <Link to="/contact" className={linkStyle("/contact")}>Contact</Link>

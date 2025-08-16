@@ -1,6 +1,6 @@
 const ProjectCard = ({title, description, techstack, github, demo}) => {
   return (
-    <div className="bg-white shadow-md rounded-lg p-5 hover:shadow-xl transition duration-300">
+    <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-xl shadow-lg p-6 m-4 max-w-md text-white">
         <h3 className="text-xl font-semibold mb-2 text-blue-700">{title}</h3>
         <p className="text-gray-700 mb-3">{description}</p>
         <p className="text-sm text-gray-500 mb-4"> <strong>Tech Stack: </strong>{techstack}</p>
