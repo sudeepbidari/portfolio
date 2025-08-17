@@ -66,8 +66,8 @@ const item = {
 export default function ProjectsSection() {
   return (
     // Projects Section
-    <section className="w-full max-w-5xl my-10">
-      <h2 className="text-4xl font-bold mb-10 text-center">
+    <section className="w-full max-w-5xl md:my-10">
+      <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center">
         My <span className="text-purple-600">Projects</span>
       </h2>
 

@@ -41,11 +41,11 @@ export default function HeroSection() {
 
   return (
     // Hero Section (glass card)
-    <section className="w-full max-w-3xl text-center py-10 h-screen">
+    <section className="w-full max-w-3xl text-center md:w-full py-10 h-screen">
       <div className="mx-auto">
         <p className="text-gray-700 my-10 text-xl md:text-lg">Hello, I'm <strong className="text-purple-600">Sudeep</strong> 👋</p>
         <motion.h1
-              className="text-10xl md:text-7xl leading-tight font-extralight"
+              className="text-4xl md:text-7xl leading-tight font-extralight"
               variants={{
                 hidden: { opacity: 1 },
                 visible: {

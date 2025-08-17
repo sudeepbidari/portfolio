@@ -24,20 +24,22 @@ function AboutSection() {
     viewport={{ once: true }}
     >
       <motion.div className="mx-auto p-10 backdrop-blur-md" variants={item}>
-        <div className="flex flex-row items-start gap-6 mt-8">
+        
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">
+          Who am <span className="text-purple-600">I</span>?
+        </h2>
+
+        <div className="flex flex-col md:flex-row items-center text-center md:text-left md:items-start gap-6 mt-8">
           <div className="basis-1/3">
           {/* Profile Picture */}
             <img
               src="images/profile-pic.jpg"
               alt="Profile"
-              className="w-full h-75 rounded-2xl shadow-3xl"
+              className="w-36 h-40 rounded-full shadow-lg md:w-full md:h-75 md:rounded-2xl md:shadow-3xl"
             />
           </div>
           <div className="basis-2/3">
-          <h2 className="text-3xl font-bold mb-4">
-            Who am <span className="text-purple-600">I</span>?
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed text-sm md:text-base">
             I'm a passionate full-stack web developer with experience in creating responsive,
             user-friendly applications. I enjoy transforming ideas into functional, visually appealing products.
             Skilled in modern frameworks and best practices, I aim to deliver solutions that are both
